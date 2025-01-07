@@ -1,4 +1,4 @@
-const luxuryHomes = [
+export const luxuryHomes = [
   {
     id: 1,
     rooms: "4+1",
@@ -8,8 +8,8 @@ const luxuryHomes = [
     location: "Paris, France",
     listingDate: "05-01-2025",
     images: {
-      exterior: "/public/img/paris-apartment-exterior.jpeg",
-      interior: "/public/img/paris-apartment-interior.jpeg",
+      exterior: "img/paris-apartment-exterior.jpeg",
+      interior: "img/paris-apartment-interior.jpeg",
     },
   },
   {
@@ -21,8 +21,8 @@ const luxuryHomes = [
     location: "Zurich, Switzerland",
     listingDate: "05-01-2025",
     images: {
-      exterior: "/public/img/zurich-familyhouse-exterior.jpeg",
-      interior: "/public/img/zurich-familyhouse-interior.jpeg",
+      exterior: "img/zurich-familyhouse-exterior.jpeg",
+      interior: "img/zurich-familyhouse-interior.jpeg",
     },
   },
   {
@@ -34,8 +34,8 @@ const luxuryHomes = [
     location: "Barcelona, Spain",
     listingDate: "04-01-2025",
     images: {
-      exterior: "/public/img/barcelona-villa-exterior.jpeg",
-      interior: "/public/img/barcelona-villa-interior.jpeg",
+      exterior: "img/barcelona-villa-exterior.jpeg",
+      interior: "img/barcelona-villa-interior.jpeg",
     },
   },
   {
@@ -47,8 +47,8 @@ const luxuryHomes = [
     location: "Rome, Italy",
     listingDate: "06-01-2025",
     images: {
-      exterior: "/public/img/rome-apartment-exterior.jpeg",
-      interior: "/public/img/rome-apartment-interior.jpeg",
+      exterior: "img/rome-apartment-exterior.jpeg",
+      interior: "img/rome-apartment-interior.jpeg",
     },
   },
   {
@@ -60,8 +60,8 @@ const luxuryHomes = [
     location: "Bavaria, Germany",
     listingDate: "06-01-2025",
     images: {
-      exterior: "/public/img/bavaria-castle-exterior.jpeg",
-      interior: "/public/img/bavaria-castle-interior.jpeg",
+      exterior: "img/bavaria-castle-exterior.jpeg",
+      interior: "img/bavaria-castle-interior.jpeg",
     },
   },
   {
@@ -73,8 +73,8 @@ const luxuryHomes = [
     location: "Budapest, Hungary",
     listingDate: "06-01-2025",
     images: {
-      exterior: "/public/img/budapest-castle-exterior.jpeg",
-      interior: "/public/img/budapest-castle-interior.jpeg",
+      exterior: "img/budapest-castle-exterior.jpeg",
+      interior: "img/budapest-castle-interior.jpeg",
     },
   },
   {
@@ -86,8 +86,8 @@ const luxuryHomes = [
     location: "Amsterdam, Netherlands",
     listingDate: "26-12-2024",
     images: {
-      exterior: "/public/img/amsterdam-apartment-exterior.jpeg",
-      interior: "/public/img/amsterdam-apartment-interior.jpeg",
+      exterior: "img/amsterdam-apartment-exterior.jpeg",
+      interior: "img/amsterdam-apartment-interior.jpeg",
     },
   },
   {
@@ -99,8 +99,8 @@ const luxuryHomes = [
     location: "Prague, Czech Republic",
     listingDate: "06-01-2025",
     images: {
-      exterior: "/public/img/prague-villa-exterior.jpeg",
-      interior: "/public/img/prague-villa-interior.jpeg",
+      exterior: "img/prague-villa-exterior.jpeg",
+      interior: "img/prague-villa-interior.jpeg",
     },
   },
   {
@@ -112,8 +112,8 @@ const luxuryHomes = [
     location: "Vienna, Austria",
     listingDate: "06-01-2025",
     images: {
-      exterior: "/public/img/vienna-penthouse-exterior.jpeg",
-      interior: "/public/img/vienna-penthouse-interior.jpeg",
+      exterior: "img/vienna-penthouse-exterior.jpeg",
+      interior: "img/vienna-penthouse-interior.jpeg",
     },
   },
   {
@@ -125,8 +125,8 @@ const luxuryHomes = [
     location: "Brussels, Belgium",
     listingDate: "06-01-2025",
     images: {
-      exterior: "/public/img/brussel-familyhouse-exterior.jpeg",
-      interior: "/public/img/brussel-familyhouse-interior.jpeg",
+      exterior: "img/brussel-familyhouse-exterior.jpeg",
+      interior: "img/brussel-familyhouse-interior.jpeg",
     },
   },
   {
@@ -138,8 +138,8 @@ const luxuryHomes = [
     location: "Copenhagen, Denmark",
     listingDate: "06-01-2025",
     images: {
-      exterior: "/public/img/Copenhagen-apartment-exterior.jpeg",
-      interior: "/public/img/Copenhagen-apartment-interior.jpeg",
+      exterior: "img/Copenhagen-apartment-exterior.jpeg",
+      interior: "img/Copenhagen-apartment-interior.jpeg",
     },
   },
   {
@@ -151,8 +151,8 @@ const luxuryHomes = [
     location: "Stockholm, Sweden",
     listingDate: "06-01-2025",
     images: {
-      exterior: "/public/img/Stockholm-villa-exterior.jpeg",
-      interior: "/public/img/Stockholm-villa-interior.jpeg",
+      exterior: "img/Stockholm-villa-exterior.jpeg",
+      interior: "img/Stockholm-villa-interior.jpeg",
     },
   },
   {
@@ -164,8 +164,8 @@ const luxuryHomes = [
     location: "Lisbon, Portugal",
     listingDate: "06-01-2025",
     images: {
-      exterior: "/public/img/Lisbon-familyhouse-exterior.jpeg",
-      interior: "/public/img/Lisbon-familyhouse-interior.jpeg",
+      exterior: "img/Lisbon-familyhouse-exterior.jpeg",
+      interior: "img/Lisbon-familyhouse-interior.jpeg",
     },
   },
   {
@@ -177,8 +177,8 @@ const luxuryHomes = [
     location: "Dublin, Ireland",
     listingDate: "06-01-2025",
     images: {
-      exterior: "/public/img/dublin-apartment-exterior.jpeg",
-      interior: "/public/img/dublin-apartment-interior.jpeg",
+      exterior: "img/dublin-apartment-exterior.jpeg",
+      interior: "img/dublin-apartment-interior.jpeg",
     },
   },
   {
@@ -190,8 +190,8 @@ const luxuryHomes = [
     location: "Lausanne, Switzerland",
     listingDate: "06-01-2025",
     images: {
-      exterior: "/public/img/Lousanne-castle-exterior.jpeg",
-      interior: "/public/img/Lousanne-castle-interior.jpeg",
+      exterior: "img/Lousanne-castle-exterior.jpeg",
+      interior: "img/Lousanne-castle-interior.jpeg",
     },
   },
   {
@@ -203,8 +203,8 @@ const luxuryHomes = [
     location: "Helsinki, Finland",
     listingDate: "06-01-2025",
     images: {
-      exterior: "/public/img/helsinki-apartment-exterior.jpeg",
-      interior: "/public/img/helsinki-apartment-interior.jpeg",
+      exterior: "img/helsinki-apartment-exterior.jpeg",
+      interior: "img/helsinki-apartment-interior.jpeg",
     },
   },
   {
@@ -216,8 +216,8 @@ const luxuryHomes = [
     location: "Warsaw, Poland",
     listingDate: "06-01-2025",
     images: {
-      exterior: "/public/img/warsaw-penthouse-exterior.jpeg",
-      interior: "/public/img/warsaw-penthouse-interior.jpeg",
+      exterior: "img/warsaw-penthouse-exterior.jpeg",
+      interior: "img/warsaw-penthouse-interior.jpeg",
     },
   },
   {
@@ -229,8 +229,8 @@ const luxuryHomes = [
     location: "Oslo, Norway",
     listingDate: "06-01-2025",
     images: {
-      exterior: "/public/img/oslo-villa-exterior.jpeg",
-      interior: "/public/img/oslo-villa-interior.jpeg",
+      exterior: "img/oslo-villa-exterior.jpeg",
+      interior: "img/oslo-villa-interior.jpeg",
     },
   },
   {
@@ -242,8 +242,8 @@ const luxuryHomes = [
     location: "Sofia, Bulgaria",
     listingDate: "06-01-2025",
     images: {
-      exterior: "/public/img/sofia-apartment-exterior.jpeg",
-      interior: "/public/img/sofia-apartment-interior.jpeg",
+      exterior: "img/sofia-apartment-exterior.jpeg",
+      interior: "img/sofia-apartment-interior.jpeg",
     },
   },
   {
@@ -255,8 +255,8 @@ const luxuryHomes = [
     location: "Athens, Greece",
     listingDate: "06-01-2025",
     images: {
-      exterior: "/public/img/athens-familyhouse-exterior.jpeg",
-      interior: "/public/img/athens-familyhouse-interior.jpeg",
+      exterior: "img/athens-familyhouse-exterior.jpeg",
+      interior: "img/athens-familyhouse-interior.jpeg",
     },
   },
 ];
